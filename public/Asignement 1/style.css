@@ -1,0 +1,176 @@
+body {
+	font-family: candara;
+}
+
+footer {	
+	clear: left;
+}
+
+header {
+	letter-spacing: 3.5px;
+}
+
+dt {
+	font-size: 120%;
+}
+
+.hr50 {
+	width: 50%;
+}
+
+.hr75 {
+	width: 75%;
+}
+
+#vundle {
+	width: 750px;
+}
+
+#dracula {
+	height: 25px;
+}
+
+.customleft {
+	width: 750px;
+	height: 600px;
+	float: left;
+	margin-left: 100px;
+}
+
+.tutorial {
+	text-align: center;
+}
+
+.sources {
+	text-align: center;
+}
+
+#custombotleft {
+	height: 700px;
+}
+
+
+#vimtutor {
+	height: 700px;
+}
+
+#my_vim {
+	width: 700px;
+}
+
+#customtopright {
+	margin-top: 100px;
+}
+
+.custombotright {
+	margin-top: -260px;
+}
+
+.custombotbotright {
+	width: 500px;
+	height: 1000px;
+	float: right;
+	margin-right: 350px;
+	margin-top: -260px;
+}
+
+.customright {
+	width: 500px;
+	height: 510px;
+	float: right;
+	margin-right: 350px;
+}
+
+.ed {
+	height: 535px;
+	width: 750px;
+}
+
+.historyleft {
+	width: 750px;
+	float: left;
+	margin-left: 30px;
+}
+
+.historyright {
+	width: 700px;
+	margin-left: 930px;
+	margin-top: 80px;
+}
+
+.historycenter {
+	float: center;
+	width: 800px;
+	margin-left: 500px;
+}
+
+.logo {
+	height: 200px;
+	widows: 200px;
+	position: relative;
+	float: left;
+	left: 20px;
+}
+
+.vim_vs_emacs {
+	height: 400px;
+	width: 700px;}
+
+.terminal {
+	height: 525px;
+	width: 900px;
+	margin-left: -20px;	
+}
+
+.stand_out {
+	color: orange;
+}
+
+.presentation {
+	margin-left: 300px;
+}
+
+.how_to_use {
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.why_to_use {
+	margin-left: 975px;
+}
+
+.the_war {
+	margin-left: 975px;
+}
+
+nav {
+	text-align: center;
+	font-size: 120%;
+	font-family: candara;
+}
+
+nav a {
+	margin: 10px;
+}
+
+header {
+	font-size: 200%;
+	text-align: center;
+	font-family: candara;
+}
+
+footer p {
+	margin: 0px;
+}
+
+#csumb_logo {
+	height: 80px;
+	width: 160px;
+	float: right;
+	margin-top: -100px;
+}
+
+.oranged {
+	color: orange;
+}
