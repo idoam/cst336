@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Welcome to the Hangman game!</h1>
+
+	<span id="span1">Select a word: <input id="word" type="text" name="word"></span>
+	<span id="span2"><span id="WordError"></span></span><br><br>
+	<span id="span3"><button id="SubmitWord">Submit this word</button></span>
+
+	<span hidden id="span4"><button id="SubmitLetter">Guess this letter</button><input id="letter" type="text" name="letter" size="1"><br></span>
+	<span hidden id="span5"><span id="LetterError"></span></span><br>
+	<span hidden id="span6"><button id="Hint">Hint</button></span><br>
+	<span hidden id="span7">Lives : </span><br>
+	<span hidden id="span8"></span><br><br>
+
+	<div id="spansCenterBug" class>
+		<span id="span9"></span><br>
+	</div>
+	<span id="span10"></span>
+	<br><br><br><br><br><br><br>
+
+</body>
+
+<footer>
+	<hr>
+	<img id="csumb_logo" src="img/csumb_logo.png" alt="csumb logo">
+	<p>Posted by Pierre Brandone</p><br>
+	<p id="Contact">Contact me : pierre.brandone@epita.fr</p>
+</footer>
+
+
+</html>
