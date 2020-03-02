@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+}
+
+#container {
+	display: inline-flex;
+}
+
+#csumb_logo {
+	font-family: candara;
+	float: right;
+	margin-top: -40px;
+	width: 120px;
+}
+
+footer p {
+	float: left;
+	font-size: 75%;
+	margin-top: -5px;
+}
+
+#Contact {
+	margin-left: -128px;
+}
