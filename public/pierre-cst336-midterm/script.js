@@ -7,7 +7,6 @@ $(document).ready(function() {
     		method: "GET",
     		url: "https://openlibrary.org/api/books?bibkeys=ISBN:" + $("#ISBN").val() + "&format=json&jscmd=data",
     		//0451526538
-    		//$("#ISBN")
     		dataType: "json",
     		data:{},
 
@@ -15,7 +14,8 @@ $(document).ready(function() {
     		success: function(data) {
     			//0451526538
 			    var getData = data["ISBN:" + $("#ISBN").val()];
-			    $("#img").attr("src", getData.url);
+			    console.log(getData.url);
+			    $("#img").attr("src", getData.cover.medium);
 			    $("#title").html("Title: " + getData.title);
 			    $("#author").html("Author: " + getData.authors[0].name);
 			    $("#publisher").html("Publisher: " + getData.publishers[0].name);
