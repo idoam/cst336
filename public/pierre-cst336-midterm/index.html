@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- Query -->
+		<div class="jumbotron">
+			<h1>Open Library</h1>
+			<p>Please enter the ISBN of the book you'd like to retrieve</p>
+			<form method="GET">
+				<label class="col-sm-2">ISBN</label>
+				<input id="ISBN" class="col-sm-4" type="text">
+			</form>
+			<button type="submit" id="submit" name="Submit" class="col-sm-1 btn btn-primary">Query</button>
+		</div>
+
+
+		<!-- Result -->
+		<img id="img" src="" class="col-sm-3 cover">
+		<p class="col-sm-4 info">
+			<p id="title">Title</p>
+			<p id="author">Author</p>
+			<p id="publishyear">Publish year</p>
+			<p id="publisher">Publisher</p>
+			<p id="isbn">ISBN</p>
+			<p id="pages">Pages</p>
+		</p>
+
+
+	</div>
+
+</body>
+</html>
