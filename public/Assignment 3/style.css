@@ -1,0 +1,63 @@
+.gender {
+	width: 300px;
+	margin-top: 100px;
+}
+
+#centered {
+	font-size: 120%;
+	text-align: center;
+}
+
+#title {
+	font-size: 220%;
+	font-family: candara;
+	text-align: center;
+}
+
+#search {
+	width: 100px;
+	height: 30px;
+	font-size: 80%;
+	background-color: rgb(230, 230, 230);
+}
+
+#csumb_logo {
+	width: 75%;
+}
+
+#contact {
+	margin-top: -10px;
+}
+
+#name {
+	font-size: 120%;
+}
+
+footer {
+	margin-top: 10%;
+}
+
+span {
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 92%;
+}
+
+h1 {
+	width: 100%;
+	background-color: rgb(230, 230, 230);
+    border-style: solid;
+    border-color: grey;
+}
+
+input {
+	margin-top: 10px;
+	height: 22px;
+	width: 180px;
+	font-size: 100%;
+	text-align: center;	
+}
+
+ul {
+	font-size: 110%;
+}
